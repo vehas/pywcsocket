@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> test web socket </title>
+    <script src="./socket.io.js"></script>
+<script>
+  var socket = io('http://localhost:4000');
+  socket.emit('line', {x :[10], y: [2]});
+</script>
+  </head>
+  <body>
+    hi
+  </body>
+</html>

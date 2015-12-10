@@ -1,0 +1,21 @@
+{
+  "name": "ywc-server",
+  "version": "0.1.0",
+  "description": "server for ywc presentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "series",
+    "of",
+    "web",
+    "socket"
+  ],
+  "author": "vehas",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.3.7"
+  }
+}
